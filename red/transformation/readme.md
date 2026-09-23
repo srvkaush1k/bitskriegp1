@@ -11,6 +11,16 @@ that is iterating over each 16bit character in the code and shifting the first p
 the second 8 bit seperately
 
 ## Solution
+```python
+code = '灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸形㝦㘲捡㕽'
+flag = ""
+for i in range(0, len(code)):
+    character1 = chr((ord(code[i]) >> 8))
+    character2 = chr(code[i].encode('utf-16be')[-1])
+    flag += character1
+    flag += character2
+print(flag)
+```
 
 ## Takeaway
 Look at how the flag is being encoded first
