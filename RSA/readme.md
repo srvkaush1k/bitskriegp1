@@ -6,6 +6,8 @@ in every netcat request. So it means that one of the prime factor of N is 2 so t
 N/2. This makes cracking the RSA encryption easy as the numbers are small 
 ## Solution
 I Directly searched for online RSA decryption programs as the Public Key (N) is very vulnerable
+<img width="1633" height="467" alt="image" src="https://github.com/user-attachments/assets/844535cf-1f5a-4434-90ab-61055743ea52" />
+
 
 ## Takeaway
 Sometimes Public key is not so vulnerable so i have to manually decrypt based on the encryption file
